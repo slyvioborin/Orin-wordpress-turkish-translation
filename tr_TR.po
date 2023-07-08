@@ -1,0 +1,1564 @@
+# Orin WordPress Theme: Pot File
+# Copyright (C) 2023
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Orin v1.1.2\n"
+"Report-Msgid-Bugs-To: Alperen Arslan <slyvioborin@gmail.com>\n"
+"POT-Creation-Date: 2023-04-04 11:10+0300\n"
+"PO-Revision-Date: 2023-07-09 01:44+0300\n"
+"Last-Translator: Alperen Arslan\n"
+"Language-Team: Alperen Arslan <slyvioborin@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops... Error 404"
+msgstr "Oops... Hata 404"
+
+#: 404.php:18
+msgid "We are sorry, but the page you are looking for does not exist."
+msgstr "Üzgünüz, ancak aradığınız sayfa mevcut değil."
+
+#: 404.php:19
+#, php-format
+msgid ""
+"Please check entered address and try again or go to <a href=\"%1$s\" "
+"rel=\"home\">homepage</a>."
+msgstr ""
+"Lütfen girilen adresi kontrol edin ve tekrar deneyin veya <a href=\"%1$s\" "
+"rel=\"home\">anasayfa</a> adresine gidin."
+
+#: assets/class-tgm-plugin-activation.php:327 assets/plugin-activation.php:64
+msgid "Install Required Plugins"
+msgstr "Gerekli Eklentileri Yükleyin"
+
+#: assets/class-tgm-plugin-activation.php:328 assets/plugin-activation.php:65
+msgid "Install Plugins"
+msgstr "Eklentileri Yükle"
+
+#: assets/class-tgm-plugin-activation.php:330 assets/plugin-activation.php:67
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Eklenti yükleniyor: %s"
+
+#: assets/class-tgm-plugin-activation.php:332 assets/plugin-activation.php:69
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Eklenti Güncelleniyor: %s"
+
+#: assets/class-tgm-plugin-activation.php:333 assets/plugin-activation.php:70
+msgid "Something went wrong with the plugin API."
+msgstr "Eklenti API'sinde bir şeyler ters gitti."
+
+#: assets/class-tgm-plugin-activation.php:336 assets/plugin-activation.php:73
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Bu tema aşağıdaki eklentiyi gerektirir: %1$s."
+msgstr[1] "Bu tema aşağıdaki eklentileri gerektirir: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:342 assets/plugin-activation.php:79
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Bu tema şu eklentiyi önerir: %1$s."
+msgstr[1] "Bu tema şu eklentileri önerir: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:348 assets/plugin-activation.php:85
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Bu temayla maksimum uyumluluğu sağlamak için bu eklentinin en son sürümüne "
+"güncellenmesi gerekmektedir: %1$s."
+msgstr[1] ""
+"Bu temayla maksimum uyumluluğu sağlamak için bu eklentilerin en son "
+"sürümlerine güncellenmesi gerekir: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:354 assets/plugin-activation.php:91
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "%1$s için bir güncelleme mevcut."
+msgstr[1] "Bu eklentiler için güncellemeler mevcut: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:360 assets/plugin-activation.php:97
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Şu gerekli eklenti şu anda etkin değil: %1$s."
+msgstr[1] "Şu gerekli eklentiler şu anda etkin değil: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:366 assets/plugin-activation.php:103
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Şu önerilen eklenti şu anda etkin değil: %1$s."
+msgstr[1] "Şu önerilen eklentiler şu anda etkin değil: %1$s."
+
+#: assets/class-tgm-plugin-activation.php:371 assets/plugin-activation.php:108
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Eklentiyi yüklemeye başlayın"
+msgstr[1] "Eklentileri yüklemeye başlayın"
+
+#: assets/class-tgm-plugin-activation.php:376 assets/plugin-activation.php:113
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Eklentiyi güncellemeye başlayın"
+msgstr[1] "Eklentileri güncellemeye başlayın"
+
+#: assets/class-tgm-plugin-activation.php:381 assets/plugin-activation.php:118
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Eklentiyi etkinleştirmeye başlayın"
+msgstr[1] "Eklentileri etkinleştirmeye başlayın"
+
+#: assets/class-tgm-plugin-activation.php:385 assets/plugin-activation.php:122
+msgid "Return to Required Plugins Installer"
+msgstr "Gerekli Eklentiler Yükleyicisine Geri Dön"
+
+#: assets/class-tgm-plugin-activation.php:386
+#: assets/class-tgm-plugin-activation.php:827
+#: assets/class-tgm-plugin-activation.php:2533
+#: assets/class-tgm-plugin-activation.php:3579
+msgid "Return to the Dashboard"
+msgstr "Başlangıça dön"
+
+#: assets/class-tgm-plugin-activation.php:387
+#: assets/class-tgm-plugin-activation.php:3159 assets/plugin-activation.php:123
+msgid "Plugin activated successfully."
+msgstr "Eklenti başarıyla etkinleştirildi."
+
+#: assets/class-tgm-plugin-activation.php:388
+#: assets/class-tgm-plugin-activation.php:2952 assets/plugin-activation.php:124
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Şu eklenti başarıyla etkinleştirildi:"
+msgstr[1] "Şu eklentiler başarıyla etkinleştirildi:"
+
+#: assets/class-tgm-plugin-activation.php:390 assets/plugin-activation.php:126
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Hiçbir işlem yapılmadı. %1$s eklentisi zaten aktif."
+
+#: assets/class-tgm-plugin-activation.php:392 assets/plugin-activation.php:128
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Eklenti etkinleştirilmedi. Bu tema için %s'nin daha yüksek bir sürümü "
+"gereklidir. Lütfen eklentiyi güncelleyin."
+
+#: assets/class-tgm-plugin-activation.php:394 assets/plugin-activation.php:130
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tüm eklentiler başarıyla yüklendi ve etkinleştirildi. %1$s"
+
+#: assets/class-tgm-plugin-activation.php:395 assets/plugin-activation.php:131
+msgid "Dismiss this notice"
+msgstr "Bu bildirimi kapat"
+
+#: assets/class-tgm-plugin-activation.php:396 assets/plugin-activation.php:132
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Yüklenmesi, güncellenmesi veya etkinleştirilmesi gereken bir veya daha fazla "
+"gerekli veya önerilen eklenti var."
+
+#: assets/class-tgm-plugin-activation.php:397 assets/plugin-activation.php:133
+msgid "Please contact the administrator of this site for help."
+msgstr "Yardım için lütfen bu sitenin yöneticisiyle iletişime geçin."
+
+#: assets/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Bu eklentinin temanızla uyumlu olması için güncellenmesi gerekir."
+
+#: assets/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Güncelleme Gerekli"
+
+#: assets/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Uzak eklenti paketi istenen kısa ada sahip bir klasör içermiyor ve yeniden "
+"adlandırma çalışmadı."
+
+#: assets/class-tgm-plugin-activation.php:934
+#: assets/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Lütfen eklenti sağlayıcısıyla iletişime geçin ve eklentilerini WordPress "
+"yönergelerine göre paketlemelerini isteyin."
+
+#: assets/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Uzak eklenti paketi birden fazla dosyadan oluşuyor, ancak dosyalar bir "
+"klasörde paketlenmemiş."
+
+#: assets/class-tgm-plugin-activation.php:1121
+#: assets/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "ve"
+
+#: assets/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: assets/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Gerekli"
+
+#: assets/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Tavsiye edilen"
+
+#: assets/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress Deposu"
+
+#: assets/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Dış Kaynak"
+
+#: assets/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Önceden Paketlenmiş"
+
+#: assets/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Yüklü Değil"
+
+#: assets/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Yüklendi Ancak Etkinleştirilmedi"
+
+#: assets/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Etkin"
+
+#: assets/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Gerekli Güncelleme Mevcut Değil"
+
+#: assets/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Güncelleme Gerekiyor"
+
+#: assets/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Güncelleme önerilir"
+
+#: assets/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: assets/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tüm <span class=\"count\">(%s)</span>"
+msgstr[1] "Tüm <span class=\"count\">(%s)</span>"
+
+#: assets/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "bilinmeyen"
+
+#: assets/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Yüklü versiyon:"
+
+#: assets/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimum gerekli sürüm:"
+
+#: assets/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Mevcut versiyon:"
+
+#: assets/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Yüklemek, güncellemek veya etkinleştirmek için eklenti yok."
+
+#: assets/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Eklenti"
+
+#: assets/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Kaynak"
+
+#: assets/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tür"
+
+#: assets/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Sürüm"
+
+#: assets/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Durum"
+
+#: assets/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "%2$s'i yükle"
+
+#: assets/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$s'i Güncelle"
+
+#: assets/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s'i etkinleştirin"
+
+#: assets/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Eklenti yazarından güncelleme mesajı:"
+
+#: assets/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Yükle"
+
+#: assets/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Güncelle"
+
+#: assets/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#: assets/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Yüklenecek hiçbir eklenti seçilmedi. Hiçbir işlem yapılmadı."
+
+#: assets/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Güncellenecek hiçbir eklenti seçilmedi. Hiçbir işlem yapılmadı."
+
+#: assets/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Şu anda yüklenebilecek herhangi bir eklenti bulunmamaktadır."
+
+#: assets/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Şu anda güncellenecek herhangi bir eklenti bulunmamaktadır."
+
+#: assets/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Etkinleştirilecek hiçbir eklenti seçilmedi. Hiçbir işlem yapılmadı."
+
+#: assets/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Şu anda etkinleştirilebilecek herhangi bir eklenti bulunmamaktadır."
+
+#: assets/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Eklenti aktivasyonu başarısız oldu."
+
+#: assets/class-tgm-plugin-activation.php:3497
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Eklenti Güncelleniyor %1$s (%2$d/%3$d)"
+
+#: assets/class-tgm-plugin-activation.php:3500
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s yüklenirken bir hata oluştu: <strong>%2$s</strong>."
+
+#: assets/class-tgm-plugin-activation.php:3502
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s yüklemesi başarısız oldu."
+
+#: assets/class-tgm-plugin-activation.php:3506
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Kurulum ve aktivasyon süreci başlıyor. Bu işlem bazı sunucularda biraz zaman "
+"alabilir, bu nedenle lütfen sabırlı olun."
+
+#: assets/class-tgm-plugin-activation.php:3508
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s başarıyla kuruldu ve etkinleştirildi."
+
+#: assets/class-tgm-plugin-activation.php:3509
+msgid "All installations and activations have been completed."
+msgstr "Tüm kurulum ve aktivasyonlar tamamlanmıştır."
+
+#: assets/class-tgm-plugin-activation.php:3511
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Eklendi Yükleniyor ve Aktifleştiriliyor %1$s (%2$d/%3$d)"
+
+#: assets/class-tgm-plugin-activation.php:3514
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Yükleme işlemi başlıyor. Bu işlem bazı sunucularda biraz zaman alabilir, bu "
+"nedenle lütfen sabırlı olun."
+
+#: assets/class-tgm-plugin-activation.php:3516
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s başarıyla yüklendi."
+
+#: assets/class-tgm-plugin-activation.php:3517
+msgid "All installations have been completed."
+msgstr "Tüm kurulumlar tamamlanmıştır."
+
+#: assets/class-tgm-plugin-activation.php:3519
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Eklenti Yükleniyor %1$s (%2$d/%3$d)"
+
+#: assets/customizer.php:91
+msgid "All categories"
+msgstr "Tüm kategoriler"
+
+#: assets/customizer.php:116
+msgid "Logo For Dark Style (optional)"
+msgstr "Karanlık Stil İçin Logo (isteğe bağlı)"
+
+#: assets/customizer.php:128
+msgid ""
+"The logo for the dark style should have the same dimensions as the original "
+"logo and should differ only in color."
+msgstr ""
+"Karanlık stil için logo orijinal logo ile aynı boyutlara sahip olmalı ve "
+"sadece renk açısından farklılık göstermelidir."
+
+#: assets/customizer.php:138
+msgid "Logo For Dark Style (Setting Description)"
+msgstr "Karanlık Stil İçin Logo (Ayar Açıklaması)"
+
+#: assets/customizer.php:160
+msgid "Logo Width, px"
+msgstr "Logo Genişliği, px"
+
+#: assets/customizer.php:177
+msgid "Header And Text Logo"
+msgstr "Üstbilgi ve Metin Logosu"
+
+#: assets/customizer.php:202
+msgid "Header"
+msgstr "Üstbilgi"
+
+#: assets/customizer.php:223
+msgid "Enable sticky header"
+msgstr "Yapışkan üstbilgiyi etkinleştir"
+
+#: assets/customizer.php:242
+msgid "Enable switching between font types (sans-serif or serif fonts)"
+msgstr ""
+"Yazı tipi türleri arasında geçişi etkinleştir (sans-serif veya serif yazı "
+"tipleri)"
+
+#: assets/customizer.php:252
+msgid ""
+"You can change the default fonts in the \"Styles And Cookies\" section: "
+"\"Styles And Cookies > Fonts And Color Mode > Default Fonts: Sans-Serif Or "
+"Serif\"."
+msgstr ""
+"Varsayılan yazı tiplerini \"Stiller ve Çerezler\" bölümünden "
+"değiştirebilirsiniz: \"Stiller ve Çerezler > Yazı Tipleri ve Renk Modu > "
+"Varsayılan Yazı Tipleri: Sans-Serif veya Serif\"."
+
+#: assets/customizer.php:262
+msgid "Switching Between Font Types (Setting Description)"
+msgstr "Yazı Tipi Türleri Arasında Geçiş Yapma (Ayar Açıklaması)"
+
+#: assets/customizer.php:283
+msgid "Enable color switch (moon/sun icon)"
+msgstr "Renk anahtarını etkinleştir (ay/güneş simgesi)"
+
+#: assets/customizer.php:293
+msgid ""
+"You can change the default site style in the \"Styles And Cookies\" section: "
+"\"Styles And Cookies > Fonts And Color Mode > Default Site Style: Light Or "
+"Dark\"."
+msgstr ""
+"Varsayılan site stilini \"Stiller ve Çerezler\" bölümünden "
+"değiştirebilirsiniz: \"Stiller ve Çerezler > Yazı Tipleri ve Renk Modu > "
+"Varsayılan Site Stili: Aydınlık veya Karanlık\"."
+
+#: assets/customizer.php:303
+msgid "Color Switch (Setting Description)"
+msgstr "Renk Değişimi (Ayar Açıklaması)"
+
+#: assets/customizer.php:324
+msgid "Show search icon and dropdown search form"
+msgstr "Arama simgesini ve açılır arama formunu göster"
+
+#: assets/customizer.php:343
+msgid "Show sidebar button (arrow icon)"
+msgstr "Kenar çubuğunu düğmesini göster (ok simgesi)"
+
+#: assets/customizer.php:353
+msgid ""
+"The sidebar button will be hidden if there are no widgets in your sidebar."
+msgstr ""
+"Kenar çubuğunuzda hiçbir widget yoksa kenar çubuğu düğmesi gizlenecektir."
+
+#: assets/customizer.php:363
+msgid "Show sidebar button (Setting description)"
+msgstr "Kenar çubuğu düğmesini göster (Ayar açıklaması)"
+
+#: assets/customizer.php:380
+msgid ""
+"By default, the Orin theme displays a text logo. Below you can change the "
+"text for your logo or change the logo type from text to image."
+msgstr ""
+"Orin teması varsayılan olarak bir metin logosu görüntüler. Aşağıda logonuzun "
+"metnini değiştirebilir veya logo türünü metinden resme dönüştürebilirsiniz."
+
+#: assets/customizer.php:390
+msgid "Logo"
+msgstr "Logo"
+
+#: assets/customizer.php:411
+msgid "Logo Type"
+msgstr "Logo Türü"
+
+#: assets/customizer.php:414
+msgid "Text"
+msgstr "Metin"
+
+#: assets/customizer.php:415
+msgid "Image"
+msgstr "Resim"
+
+#: assets/customizer.php:425
+msgid ""
+"You can add an image for your logo in the \"Site Identity\" section: \"Site "
+"Identity > Logo\"."
+msgstr ""
+"You can add an image for your logo in the \"Site Identity\" section: \"Site "
+"Identity > Logo\"."
+
+#: assets/customizer.php:435
+msgid "Logo Type (Setting Description)"
+msgstr "Logo Tipi (Ayar Açıklaması)"
+
+#: assets/customizer.php:455
+msgid "Logo Text (Logo Type: Text)"
+msgstr "Logo Metni (Logo Tipi: Metin)"
+
+#: assets/customizer.php:471
+msgid "Homepage Slider"
+msgstr "Ana Sayfa Slaytı"
+
+#: assets/customizer.php:496
+msgid "Slider Display Settings"
+msgstr "Slayt Görünüm Ayarları"
+
+#: assets/customizer.php:517
+msgid "Show homepage slider"
+msgstr "Ana sayfa slaytını göster"
+
+#: assets/customizer.php:536
+msgid "Show the slider only on the first pagination page"
+msgstr "Slaytı yalnızca ilk numalandırma sayfasında göster"
+
+#: assets/customizer.php:561
+msgid "Slider Section: Title And Subtitle"
+msgstr "Slayt Bölümü: Başlık ve Altyazı"
+
+#: assets/customizer.php:581
+msgid "Slider Section: Title"
+msgstr "Slayt Bölümü: Başlık"
+
+#: assets/customizer.php:592 assets/customizer.php:633
+#: assets/customizer.php:2453
+msgid ""
+"Allowed HTML tags: a, span, strong, b, em, i. Allowed attributes: a - href, "
+"title, target, class, rel. span - class. i - class."
+msgstr ""
+"İzin verilen HTML etiketleri: a, span, strong, b, em, i. İzin verilen "
+"nitelikler: a - href, title, target, class, rel. span - class. i - class."
+
+#: assets/customizer.php:602
+msgid "Slider Section: Title - Allowed HTML Tags"
+msgstr "Slayt Bölümü: Başlık - İzin Verilen HTML Etiketleri"
+
+#: assets/customizer.php:622
+msgid "Slider Section: Subtitle"
+msgstr "Slayt Bölümü: Altyazı"
+
+#: assets/customizer.php:643
+msgid "Slider Section: Subtitle - Allowed HTML Tags"
+msgstr "Slayt Bölümü: Altyazı - İzin Verilen HTML Etiketleri"
+
+#: assets/customizer.php:670
+msgid "Slider Options"
+msgstr "Slayt Seçenekleri"
+
+#: assets/customizer.php:692
+msgid "Maximum Number Of Slides (Default Value: 4)"
+msgstr "Maksimum Slayt Sayısı (Varsayılan Değer: 4)"
+
+#: assets/customizer.php:713
+msgid "What To Show In The Slider?"
+msgstr "Slaytta Ne Gösterilecek?"
+
+#: assets/customizer.php:716
+msgid "Posts by category"
+msgstr "Kategoriye göre yazılar"
+
+#: assets/customizer.php:717
+msgid "Featured posts"
+msgstr "Öne çıkan yazılar"
+
+#: assets/customizer.php:727
+msgid ""
+"\"Posts by category\" - The slider will display posts from all categories or "
+"from one selected category. \"Featured posts\" - The slider will only "
+"display featured posts. You can select these posts manually in the settings "
+"for each post: \"WordPress Dashboard > Posts > Add new or Edit existing post "
+"> Additional Settings > Homepage slider\"."
+msgstr ""
+"\"Kategoriye göre yazılar\" - Slayt tüm kategorilerdeki veya seçilen bir "
+"kategorideki yazıları görüntüler. \"Öne çıkan yazılar\" - Slayt yalnızca öne "
+"çıkan yazıları görüntüler. Bu yazıları her yazı için ayarlardan manuel "
+"olarak seçebilirsiniz: \"WordPress Başlangıcı > Yazılar > Yeni yazı ekle "
+"veya Mevcut yazıyı düzenle > Ek Ayarlar > Ana sayfa slaytı\"."
+
+#: assets/customizer.php:737
+msgid "What To Show In The Slider? (Setting Description)"
+msgstr "Slaytta Ne Gösterilecek? (Ayar Açıklaması)"
+
+#: assets/customizer.php:758
+msgid "Category For Slider Items"
+msgstr "Slayt Öğeleri İçin Kategori"
+
+#: assets/customizer.php:769
+msgid ""
+"The category selection setting works only if in the slider you display posts "
+"by category."
+msgstr ""
+"Kategori seçimi ayarı yalnızca slayt, yazıları kategoriye göre "
+"görüntülediğinizde çalışır."
+
+#: assets/customizer.php:779
+msgid "Category For Slider Items (Setting Description)"
+msgstr "Slayt Öğeleri İçin Kategori (Ayar Açıklaması)"
+
+#: assets/customizer.php:800
+msgid "Order By"
+msgstr "Sıralama Şekli"
+
+#: assets/customizer.php:803
+msgid "Random order"
+msgstr "Rastgele sırala"
+
+#: assets/customizer.php:804
+msgid "Publication date"
+msgstr "Yayın tarihi"
+
+#: assets/customizer.php:805
+msgid "Number of comments"
+msgstr "Yorum sayısı"
+
+#: assets/customizer.php:824
+msgid "Enable popup images for the slider"
+msgstr "Slayt için açılır görüntüleri (popup) etkinleştirin"
+
+#: assets/customizer.php:843 assets/customizer.php:1535
+msgid ""
+"Enable rewind (Moves to the opposite edge when reaching the first or last "
+"slide)"
+msgstr ""
+"Geri sarmayı etkinleştir (İlk veya son slayta ulaşıldığında diğer uca "
+"hareket eder)"
+
+#: assets/customizer.php:862 assets/customizer.php:1554
+msgid "Transition Type For Slides"
+msgstr "Slaytlar İçin Geçiş Türü"
+
+#: assets/customizer.php:865 assets/customizer.php:1557
+msgid "Fade animation"
+msgstr "Solma animasyonu"
+
+#: assets/customizer.php:866 assets/customizer.php:1558
+msgid "Slide horizontal"
+msgstr "Yatay slayt"
+
+#: assets/customizer.php:867 assets/customizer.php:1559
+msgid "Slide vertical"
+msgstr "Dikey slayt"
+
+#: assets/customizer.php:887 assets/customizer.php:1579
+msgid "Speed Of The Slide Animation (in \"ms\")"
+msgstr "Slayt Animasyonunun Hızı (\"ms\" cinsinden)"
+
+#: assets/customizer.php:899 assets/customizer.php:1591
+msgid "Default value: 600. Recommended range of values: 400...800."
+msgstr "Varsayılan değer: 600. Önerilen değer aralığı: 400...800."
+
+#: assets/customizer.php:909 assets/customizer.php:1601
+msgid "Speed Of The Slide Animation (Setting Description)"
+msgstr "Slayt Animasyonunun Hızı (Ayar Açıklaması)"
+
+#: assets/customizer.php:930
+msgid "Show navigation buttons (Next/Previous)"
+msgstr "Gezinme düğmelerini göster (Sonraki/Önceki)"
+
+#: assets/customizer.php:949
+msgid "Show pagination (Dots)"
+msgstr "Sayfalandırmayı göster (Noktalar)"
+
+#: assets/customizer.php:974
+msgid "Slider Content"
+msgstr "Slayt İçeriği"
+
+#: assets/customizer.php:995 assets/customizer.php:1664
+#: assets/customizer.php:1930
+msgid "Show author"
+msgstr "Yazarı göster"
+
+#: assets/customizer.php:1014 assets/customizer.php:1683
+#: assets/customizer.php:1949
+msgid "Show date"
+msgstr "Tarihi göster"
+
+#: assets/customizer.php:1033 assets/customizer.php:1408
+#: assets/customizer.php:1702
+msgid "Show categories"
+msgstr "Tüm kategoriler"
+
+#: assets/customizer.php:1052 assets/customizer.php:1427
+msgid "Show the \"Read more\" link"
+msgstr "\"Devamını oku\" bağlantısını gösterin"
+
+#: assets/customizer.php:1070 assets/customizer.php:1445
+msgid "Text For The \"Read More\" Link"
+msgstr "\"Devamını oku\" Bağlantısı İçin Metin"
+
+#: assets/customizer.php:1086
+msgid "Blog Posts"
+msgstr "Blog Yazıları"
+
+#: assets/customizer.php:1111
+msgid "Posts Section: Title And Subtitle"
+msgstr "Yazılar Bölümü: Başlık ve Altyazı"
+
+#: assets/customizer.php:1131
+msgid "Posts Section: Title"
+msgstr "Yazılar Bölümü: Başlık"
+
+#: assets/customizer.php:1142
+msgid ""
+"This title appears on the homepage with your latest posts. Allowed HTML "
+"tags: a, span, strong, b, em, i. Allowed attributes: a - href, title, "
+"target, class, rel. span - class. i - class."
+msgstr ""
+"Bu başlık ana sayfada en son yazılarınızla birlikte görünür. İzin verilen "
+"HTML etiketleri: a, span, strong, b, em, i. İzin verilen nitelikler: a - "
+"href, title, target, class, rel. span - class. i - class."
+
+#: assets/customizer.php:1152
+msgid "Posts Section: Title - Allowed HTML Tags"
+msgstr "Yazılar Bölümü: Başlık - İzin Verilen HTML Etiketleri"
+
+#: assets/customizer.php:1172
+msgid "Posts Section: Subtitle"
+msgstr "Yazılar Bölümü: Altyazı"
+
+#: assets/customizer.php:1183
+msgid ""
+"This subtitle appears on the homepage with your latest posts. Allowed HTML "
+"tags: a, span, strong, b, em, i. Allowed attributes: a - href, title, "
+"target, class, rel. span - class. i - class."
+msgstr ""
+"Bu altyazı, en son yazılarınızla birlikte ana sayfada görünür. İzin verilen "
+"HTML etiketleri: a, span, strong, b, em, i. İzin verilen nitelikler: a - "
+"href, title, target, class, rel. span - class. i - class."
+
+#: assets/customizer.php:1193
+msgid "Posts Section: Subtitle - Allowed HTML Tags"
+msgstr "Yazılar Bölümü: Altyazı - İzin Verilen HTML Etiketleri"
+
+#: assets/customizer.php:1214
+msgid "Show page number"
+msgstr "Sayfa numarasını göster"
+
+#: assets/customizer.php:1239
+msgid "Posts"
+msgstr "Yazılar"
+
+#: assets/customizer.php:1260
+msgid "Increase The First Post In The List Of Posts"
+msgstr "Yazılar Listesindeki İlk Yazıyı Arttır"
+
+#: assets/customizer.php:1263
+msgid "Only on the homepage"
+msgstr "Yalnızca ana sayfada"
+
+#: assets/customizer.php:1264
+msgid "On all pages with posts"
+msgstr "Yazı içeren tüm sayfalarda"
+
+#: assets/customizer.php:1265
+msgid "Do not increase"
+msgstr "Arttırma"
+
+#: assets/customizer.php:1275
+msgid ""
+"The first post will be increased only on the first pagination page. However, "
+"this can be changed in the setting below."
+msgstr ""
+"İlk yazı yalnızca ilk numaralandırma sayfasında artırılacaktır. Ancak, bu "
+"aşağıdaki ayardan değiştirilebilir."
+
+#: assets/customizer.php:1285
+msgid "Increase The First Post In The List Of Posts (Setting Description)"
+msgstr "Yazılar Listesindeki İlk Yazıyı Arttır (Ayar Açıklaması)"
+
+#: assets/customizer.php:1306
+msgid "Increase the first post on pagination pages or not?"
+msgstr "Numaralandırma sayfalarındaki ilk yazıyı artırılsın mı?"
+
+#: assets/customizer.php:1325
+msgid ""
+"Increase the size of small images (setting applies only to your featured "
+"images)"
+msgstr ""
+"Küçük resimlerin boyutunu artırın (ayar yalnızca öne çıkan resimleriniz için "
+"geçerlidir)"
+
+#: assets/customizer.php:1344
+msgid "Featured Image: Link Type"
+msgstr "Öne Çıkan Görsel: Bağlantı Türü"
+
+#: assets/customizer.php:1347
+msgid "Link to post"
+msgstr "Gönderi bağlantısı"
+
+#: assets/customizer.php:1348
+msgid "Link to image"
+msgstr "Resim bağlantısı"
+
+#: assets/customizer.php:1367
+msgid "Enable hover effects when you hover on featured images"
+msgstr ""
+"Öne çıkan görsellerin üzerine geldiğinizde fareyle üzerine gelme efektlerini "
+"etkinleştirin"
+
+#: assets/customizer.php:1387
+msgid "Excerpt Length (Number Of Words)"
+msgstr "Alıntı Uzunluğu (Kelime Sayısı)"
+
+#: assets/customizer.php:1468
+msgid "Show views counter"
+msgstr "Görüntüleme sayacını göster"
+
+#: assets/customizer.php:1487
+msgid "Show comments counter"
+msgstr "Yorum sayacını göster"
+
+#: assets/customizer.php:1514
+msgid "Gallery Format: Slider Options"
+msgstr "Galeri Formatı: Slayt Seçenekleri"
+
+#: assets/customizer.php:1618
+msgid "Single Pages"
+msgstr "Tek Sayfa"
+
+#: assets/customizer.php:1643
+msgid "Single Post Page"
+msgstr "Tek Yazı Sayfası"
+
+#: assets/customizer.php:1721
+msgid ""
+"Featured image (or Slider images): Show cropped image instead of full image "
+"(Note: This setting applies to a single post page as well as a regular page)"
+msgstr ""
+"Öne çıkan görsel (veya Slayt görselleri): Tam görüntü yerine kırpılmış "
+"görüntüyü göster (Not: Bu ayar tek bir yazı sayfasının yanı sıra normal bir "
+"sayfa için de geçerlidir)"
+
+#: assets/customizer.php:1740
+msgid ""
+"Enable popup image for featured image and slider (Note: This setting applies "
+"to a single post page as well as a regular page)"
+msgstr ""
+"Öne çıkan resim ve slayt için açılır resmi (popup) etkinleştirin (Not: Bu "
+"ayar tek bir yazı sayfasının yanı sıra normal bir sayfa için de geçerlidir)"
+
+#: assets/customizer.php:1759
+msgid "Show tags"
+msgstr "Etiketleri göster"
+
+#: assets/customizer.php:1781 assets/customizer.php:1971
+msgid "Show social share buttons (Twitter, Facebook, and Reddit)"
+msgstr "Sosyal paylaşım düğmelerini gösterin (Twitter, Facebook ve Reddit)"
+
+#: assets/customizer.php:1802
+msgid "Show \"About the author\" section"
+msgstr "\"Yazar hakkında\" bölümünü göster"
+
+#: assets/customizer.php:1812
+msgid ""
+"You can add information about yourself in your profile settings: \"WordPress "
+"Dashboard > Users > Profile > About Yourself > Biographical Info\"."
+msgstr ""
+"Profil ayarlarınızdan kendiniz hakkında bilgi ekleyebilirsiniz: \"WordPress "
+"Başlangıcı> Kullanıcılar> Profil> Hakkınızda> Biyografik Bilgi\"."
+
+#: assets/customizer.php:1822
+msgid "Show \"About the author\" section (Setting Description)"
+msgstr "\"Yazar Hakkında\" bölümünü göster (Ayar Açıklaması)"
+
+#: assets/customizer.php:1843
+msgid "Show post navigation"
+msgstr "Yazı navigasyonunu göster"
+
+#: assets/customizer.php:1862
+msgid "Show related posts"
+msgstr "İlgili yazıları göster"
+
+#: assets/customizer.php:1872
+msgid ""
+"This section displays posts that have at least one tag, which the current "
+"post also has. If the current post has no tags, then it has no related "
+"posts. If other posts do not have tags that the current post has, then the "
+"current post also has no related posts."
+msgstr ""
+"Benzer yazıları göster (Ayar Açıklama)Bu bölüm, geçerli yazının da sahip "
+"olduğu en az bir etikete sahip gönderileri görüntüler. Geçerli yazının "
+"etiketi yoksa ilgili yazı da yoktur. Diğer yazılarda, geçerli yazının sahip "
+"olduğu etiketler yoksa, geçerli yazanın da ilgili yazısı yoktur."
+
+#: assets/customizer.php:1882
+msgid "Show related posts (Setting Description)"
+msgstr "Benzer yazıları göster (Ayar Açıklaması)"
+
+#: assets/customizer.php:1909
+msgid "Regular Page"
+msgstr "Normal Sayfa"
+
+#: assets/customizer.php:1992
+msgid "Show random posts at the bottom of the page"
+msgstr "Sayfanın altında rastgele yazılar gösterin"
+
+#: assets/customizer.php:2007
+msgid "Footer"
+msgstr "Altbilgi"
+
+#: assets/customizer.php:2017
+msgid ""
+"The footer area displays text and menu. The text usually contains copyright "
+"information. However, you can add your own links to this text, and you can "
+"also use icons (for example, social media icons). You can add links using "
+"the \"a\" tag, and you can add icons using the \"i\" tag. All available "
+"icons you can find on the Font Awesome site (A link to this site is "
+"available in the documentation, section Credits). To add a menu to the "
+"footer, go to the menu edit page - there you can create and add your menu to "
+"the footer (WordPress Dashboard > Appearance > Menus)."
+msgstr ""
+"Altbilgi alanında metin ve menü görüntülenir. Metin genellikle telif hakkı "
+"bilgilerini içerir. Ancak, bu metne kendi bağlantılarınızı ekleyebilir ve "
+"simgeler de kullanabilirsiniz (örneğin, sosyal medya simgeleri). \"a\" "
+"etiketini kullanarak bağlantılar ekleyebilir ve \"i\" etiketini kullanarak "
+"simgeler ekleyebilirsiniz. Kullanılabilir tüm simgeleri Font Awesome "
+"sitesinde bulabilirsiniz (Bu sitenin bağlantısı dokümantasyonda, Credits "
+"bölümünde mevcuttur). Altbilgiye bir menü eklemek için menü düzenleme "
+"sayfasına gidin - orada menünüzü oluşturabilir ve altbilgiye "
+"ekleyebilirsiniz (WordPress Başlangıcı> Görünüm > Menüler)."
+
+#: assets/customizer.php:2027
+msgid "Footer: Description For The Settings Section"
+msgstr "Altbilgi: Ayarlar Bölümü İçin Açıklama"
+
+#: assets/customizer.php:2047
+msgid "Copyright Text"
+msgstr "Telif Hakkı Metni"
+
+#: assets/customizer.php:2058
+msgid ""
+"Allowed HTML tags: p, a, span, strong, b, em, i, br. Allowed attributes: p - "
+"class. a - href, title, target, class, rel. span - class. i - class."
+msgstr ""
+"İzin verilen HTML etiketleri: p, a, span, strong, b, em, i, br. İzin verilen "
+"nitelikler: p - sınıf. a - href, başlık, hedef, sınıf, rel. span - sınıf. i "
+"- sınıf."
+
+#: assets/customizer.php:2068
+msgid "Copyright Text - Allowed HTML Tags"
+msgstr "Telif Hakkı Metni - İzin Verilen HTML Etiketleri"
+
+#: assets/customizer.php:2085
+msgid "Styles And Cookies"
+msgstr "Stiller ve Çerezler"
+
+#: assets/customizer.php:2110
+msgid "Fonts and Color Mode"
+msgstr "Yazı Tipleri ve Renk Modu"
+
+#: assets/customizer.php:2131
+msgid "Default Fonts: Sans-Serif Or Serif"
+msgstr "Varsayılan Yazı Tipleri: Sans-Serif veya Serif"
+
+#: assets/customizer.php:2134 header.php:161
+msgid "Sans-serif fonts"
+msgstr "Sans-serif yazı tipleri"
+
+#: assets/customizer.php:2135 header.php:164
+msgid "Serif fonts"
+msgstr "Serif yazı tipleri"
+
+#: assets/customizer.php:2145
+msgid ""
+"This setting changes the default fonts (Sans-serif or Serif fonts). "
+"Important! If your current browser has the \"orin_font_type\" cookie, then "
+"the fonts will not change in that browser. The fonts will change for "
+"visitors who do not have this cookie."
+msgstr ""
+"Bu ayar varsayılan yazı tiplerini değiştirir (Sans-serif veya Serif yazı "
+"tipleri). Önemli! Mevcut tarayıcınızda \"orin_font_type\" çerezi varsa, yazı "
+"tipleri bu tarayıcıda değişmeyecektir. Bu çerezi olmayan ziyaretçiler için "
+"yazı tipleri değişecektir."
+
+#: assets/customizer.php:2155
+msgid "Default Fonts (Setting Description)"
+msgstr "Varsayılan Yazı Tipleri (Ayar Açıklaması)"
+
+#: assets/customizer.php:2176
+msgid "Default Site Style: Light Or Dark"
+msgstr "Varsayılan Site Stili: Aydınlık veya Karanlık"
+
+#: assets/customizer.php:2179
+msgid "Light"
+msgstr "Aydınlık"
+
+#: assets/customizer.php:2180
+msgid "Dark"
+msgstr "Karanlık"
+
+#: assets/customizer.php:2190
+msgid ""
+"This setting changes the default color mode for your site (Light or Dark). "
+"Important! If your current browser has the \"orin_site_style\" cookie, then "
+"your site's color mode will not change in that browser. The color mode will "
+"change for visitors who do not have this cookie."
+msgstr ""
+"Bu ayar siteniz için varsayılan renk modunu değiştirir ( Aydınlık veya "
+"Karanlık). Önemli! Mevcut tarayıcınızda \"orin_site_style\" çerezi varsa, "
+"sitenizin renk modu bu tarayıcıda değişmeyecektir. Bu çerezi kullanmayan "
+"ziyaretçiler için renk modu değişecektir."
+
+#: assets/customizer.php:2200
+msgid "Default Site Style (Setting Description)"
+msgstr "Varsayılan Site Stili (Ayar Açıklaması)"
+
+#: assets/customizer.php:2227
+msgid "Colors"
+msgstr "Renkler"
+
+#: assets/customizer.php:2249
+msgid "Light Style: Hover/Active Color (Default Color: #6f6fff)"
+msgstr "Aydınlık Stil: Vurgu/Aktif Renk (Varsayılan Renk: #6f6fff)"
+
+#: assets/customizer.php:2271
+msgid "Dark Style: Hover/Active Color (Default Color: #8585ff)"
+msgstr "Karanlık Stil: Üzerine Gelme/Aktif Renk (Varsayılan Renk: #8585ff)"
+
+#: assets/customizer.php:2298
+msgid "Cookies"
+msgstr "Çerezler"
+
+#: assets/customizer.php:2310
+msgid ""
+"HTTP cookies (also called web cookies, Internet cookies, browser cookies, or "
+"simply cookies) are small blocks of data created by a web server while a "
+"user is browsing a website and placed on the user's computer or other device "
+"by the user's web browser. This theme uses cookies to store the theme style "
+"(light or dark) and the selected font type (sans-serif or serif)."
+msgstr ""
+"HTTP çerezleri (web çerezleri, İnternet çerezleri, tarayıcı çerezleri veya "
+"sadece çerezler olarak da adlandırılır), bir kullanıcı bir web sitesinde "
+"gezinirken bir web sunucusu tarafından oluşturulan ve kullanıcının web "
+"tarayıcısı tarafından kullanıcının bilgisayarına veya diğer cihazına "
+"yerleştirilen küçük veri bloklarıdır. Bu tema, tema stilini ( aydınlık veya "
+"karanlık) ve seçilen yazı tipini (sans-serif veya serif) saklamak için "
+"çerezleri kullanır."
+
+#: assets/customizer.php:2320
+msgid "Information About Cookies"
+msgstr "Çerezler Hakkında Bilgi"
+
+#: assets/customizer.php:2341
+msgid ""
+"Use cookies to save the selected type of fonts (sans-serif or serif fonts)"
+msgstr ""
+"Seçilen yazı tiplerini (sans-serif veya serif yazı tipleri) kaydetmek için "
+"çerezleri kullanın"
+
+#: assets/customizer.php:2360
+msgid "Use cookies to save the selected site style (light or dark style)"
+msgstr ""
+"Seçilen site stilini ( aydınlık veya karanlık stil) kaydetmek için çerezleri "
+"kullanın"
+
+#: assets/customizer.php:2382
+msgid "Show cookies notice"
+msgstr "Çerez bildirimini göster"
+
+#: assets/customizer.php:2401
+msgid "Cookies Notice On Mobile Devices"
+msgstr "Mobil Cihazlardaki Çerez Bildirimi"
+
+#: assets/customizer.php:2404
+msgid "Hidden notification"
+msgstr "Gizli bildirim"
+
+#: assets/customizer.php:2405
+msgid "Visible notification"
+msgstr "Görünür bildirim"
+
+#: assets/customizer.php:2423
+msgid "Cookies Notice: Title (Required Field)"
+msgstr "Çerez Bildirimi: Başlık (Zorunlu Alan)"
+
+#: assets/customizer.php:2442
+msgid "Cookies Notice: Text (Required Field)"
+msgstr "Çerez Bildirimi: Metin (Zorunlu Alan)"
+
+#: assets/customizer.php:2463
+msgid "Cookies Notice: Text - Allowed HTML Tags"
+msgstr "Çerez Bildirimi: Metin - İzin Verilen HTML Etiketleri"
+
+#: assets/customizer.php:2483
+msgid "Cookies Notice: Button Text (Required Field)"
+msgstr "Çerez Bildirimi: Düğme Metni (Zorunlu Alan)"
+
+#: assets/customizer.php:2501
+msgid "Other Theme Settings"
+msgstr "Diğer Tema Ayarları"
+
+#: assets/customizer.php:2511
+msgid "Section with additional settings for the Orin theme."
+msgstr "Orin teması için ek ayarlar içeren bölüm."
+
+#: assets/customizer.php:2521
+msgid "Description for the Other Settings section"
+msgstr "Diğer Ayarlar bölümü için açıklama"
+
+#: assets/customizer.php:2542
+msgid ""
+"Show \"Back to top\" button (Note: The button is always hidden on mobile "
+"devices)"
+msgstr ""
+"\"Başa dön\" düğmesini göster (Not: Düğme mobil cihazlarda her zaman "
+"gizlidir)"
+
+#: assets/customizer.php:2561
+msgid "Cancel text transformation for some text elements"
+msgstr "Bazı metin öğeleri için metin dönüşümünü iptal et"
+
+#: assets/customizer.php:2571
+msgid ""
+"This setting removes the \"text-transform: capitalize\" property for some "
+"text elements. Example: \"You May Also Like\" > \"You may also like\"."
+msgstr ""
+"Bu ayar, bazı metin öğeleri için \"text-transform: capitalize\" özelliğini "
+"kaldırır. Örnek: \"Bunu Da Beğenebilirsiniz\" > \"Bunu da beğenebilirsiniz\"."
+
+#: assets/customizer.php:2581
+msgid "Cancel text transformation for some text elements (Setting Description)"
+msgstr "Bazı metin öğeleri için metin dönüşümünü iptal et (Ayar Açıklaması)"
+
+#: assets/theme-meta-boxes.php:25
+msgid "Additional Settings"
+msgstr "Ek Ayarlar"
+
+#: assets/theme-meta-boxes.php:39
+msgid "Homepage slider"
+msgstr "Ana sayfa slaytı"
+
+#: assets/theme-meta-boxes.php:44
+msgid "Add this post to the slider on the homepage?"
+msgstr "Bu yazı ana sayfadaki slayta eklensin mi?"
+
+#: assets/theme-meta-boxes.php:52
+msgid "Add image for slide"
+msgstr "Slayt için resim ekle"
+
+#: assets/theme-meta-boxes.php:53
+msgid ""
+"This image will be displayed in the slider. If there is no image in this "
+"field, then the slider will display the Featured image of this post."
+msgstr ""
+"Bu görsel slaytta görüntülenecektir. Bu alanda herhangi bir görsel yoksa, "
+"slayt bu yazının Öne Çıkan görselini görüntüler."
+
+#: assets/theme-meta-boxes.php:69
+msgid "Gallery Format Settings"
+msgstr "Galeri Format Ayarları"
+
+#: assets/theme-meta-boxes.php:80 assets/theme-meta-boxes.php:125
+#: assets/theme-meta-boxes.php:170
+msgid "Media type"
+msgstr "Medya türü"
+
+#: assets/theme-meta-boxes.php:81
+msgid "This option applies to pages with posts. Default value: Slider."
+msgstr ""
+"Bu seçenek, yazı içeren sayfalar için geçerlidir. Varsayılan değer: Slayt."
+
+#: assets/theme-meta-boxes.php:85 assets/theme-meta-boxes.php:131
+#: assets/theme-meta-boxes.php:176
+msgid "Featured image"
+msgstr "Öne çıkan görsel"
+
+#: assets/theme-meta-boxes.php:86
+msgid "Slider"
+msgstr "Slayt"
+
+#: assets/theme-meta-boxes.php:90
+msgid "Featured image / Slider"
+msgstr "Öne çıkan görsel / Slayt"
+
+#: assets/theme-meta-boxes.php:98
+msgid "Add images"
+msgstr "Resim ekle"
+
+#: assets/theme-meta-boxes.php:114
+msgid "Video Format Settings"
+msgstr "Video Formatı Ayarları"
+
+#: assets/theme-meta-boxes.php:126
+msgid ""
+"This option applies to pages with posts. Default value: Video player "
+"(iframe)."
+msgstr ""
+"Bu seçenek, yazı içeren sayfalar için geçerlidir. Varsayılan değer: Video "
+"oynatıcı (iframe)."
+
+#: assets/theme-meta-boxes.php:130
+msgid "Video player (iframe)"
+msgstr "Video oynatıcı (iframe)"
+
+#: assets/theme-meta-boxes.php:135
+msgid "Video player / Featured image"
+msgstr "Video oynatıcı / Öne çıkan görsel"
+
+#: assets/theme-meta-boxes.php:143
+msgid "Video URL"
+msgstr "Video URL'si"
+
+#: assets/theme-meta-boxes.php:145
+msgid ""
+"Insert a link (URL) on a video from one of the video hosting sites: YouTube, "
+"Vimeo, etc."
+msgstr ""
+"Video barındırma sitelerinden birinden bir videoya bağlantı (URL) ekleyin: "
+"YouTube, Vimeo, vb."
+
+#: assets/theme-meta-boxes.php:159
+msgid "Audio Format Settings"
+msgstr "Ses Formatı Ayarları"
+
+#: assets/theme-meta-boxes.php:171
+msgid ""
+"This option applies to pages with posts. Default value: Audio player "
+"(iframe)."
+msgstr ""
+"Bu seçenek, yazı içeren sayfalar için geçerlidir. Varsayılan değer: Ses "
+"oynatıcı (iframe)."
+
+#: assets/theme-meta-boxes.php:175
+msgid "Audio player (iframe)"
+msgstr "Ses oynatıcı (iframe)"
+
+#: assets/theme-meta-boxes.php:180
+msgid "Audio player / Featured image"
+msgstr "Ses oynatıcı / Öne çıkan görsel"
+
+#: assets/theme-meta-boxes.php:188
+msgid "SoundCloud URL"
+msgstr "SoundCloud URL'si"
+
+#: assets/theme-meta-boxes.php:190
+msgid "Insert a link (URL) on a song from the SoundCloud service."
+msgstr "SoundCloud servisinden bir şarkıya bir bağlantı (URL) ekleyin."
+
+#: comments.php:49
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; üzerine bir düşünce"
+
+#: comments.php:59
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s'in &ldquo;%2$s&rdquo; hakkındaki düşüncesi"
+msgstr[1] "%1$s'in &ldquo;%2$s&rdquo; hakkındaki düşünceleri"
+
+#: comments.php:89
+msgid "Older comments"
+msgstr "Eski yorumlar"
+
+#: comments.php:90
+msgid "Newer comments"
+msgstr "Yeni yorumlar"
+
+#: comments.php:103
+msgid "Comments are closed."
+msgstr "Yorumlar kapalı."
+
+#: comments.php:111
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr "E-posta hesabınız yayımlanmayacak. Gerekli alanlar işaretlendi *"
+
+#: comments.php:112
+msgid "Leave a reply"
+msgstr "Cevap bırak"
+
+#: comments.php:113
+#, php-format
+msgid "Leave a reply to %s"
+msgstr "%s'e bir yanıt bırakın"
+
+#: comments.php:114
+msgid "Cancel reply"
+msgstr "Cevabı iptal et"
+
+#: comments.php:115
+msgid "Post comment"
+msgstr "Yorum gönder"
+
+#: content-none.php:15
+msgid "Nothing found"
+msgstr "Hiçbir şey bulunamadı"
+
+#: content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"İlk yazınızı yayınlamaya hazır mısınız? <a href=\"%1$s\">Buradan başlayın</"
+"a>."
+
+#: content-none.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Üzgünüz, ancak arama terimlerinizle eşleşen bir şey yok. Lütfen farklı "
+"anahtar kelimelerle tekrar deneyin."
+
+#: content-none.php:22
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Görünüşe göre aradığınız şeyi bulamıyoruz."
+
+#: footer.php:19
+msgid "Widgets"
+msgstr "Bileşenler"
+
+#: functions.php:66
+msgid "Main menu (Header)"
+msgstr "Ana menü (Üstbilgi)"
+
+#: functions.php:67
+msgid "Footer menu"
+msgstr "Altbilgi menüsü"
+
+#: functions.php:116
+msgid "Black"
+msgstr "Siyah"
+
+#: functions.php:121
+msgid "Light Gray"
+msgstr "Açık Gri"
+
+#: functions.php:126
+msgid "White"
+msgstr "Beyaz"
+
+#: functions.php:131
+msgid "Green"
+msgstr "Yeşil"
+
+#: functions.php:136
+msgid "Blue"
+msgstr "Mavi"
+
+#: functions.php:141
+msgid "Purple"
+msgstr "Mor"
+
+#: functions.php:146
+msgid "Red"
+msgstr "Kırmızı"
+
+#: functions.php:151
+msgid "Orange"
+msgstr "Turuncu"
+
+#: functions.php:156
+msgid "Yellow"
+msgstr "Sarı"
+
+#: functions.php:559
+msgid "Sidebar"
+msgstr "Kenar çubuğu"
+
+#: functions.php:561
+msgid ""
+"Add widgets here to appear in your hidden sidebar. This area for widgets is "
+"located in a hidden container on the right."
+msgstr ""
+"Gizli kenar çubuğunuzda görünmesi için widget'ları buraya ekleyin. "
+"Widget'lar için bu alan sağdaki gizli bir konteynırda bulunur."
+
+#: functions.php:570
+msgid "Footer: Left Column"
+msgstr "Altbilgi: Sol Sütun"
+
+#: functions.php:572
+msgid "Add widgets here to appear in your footer (column 1: left column)."
+msgstr ""
+"Altbilginizde görünmesi için buraya widget ekleyin (sütun 1: sol sütun)."
+
+#: functions.php:581
+msgid "Footer: Center Column"
+msgstr "Altbilgi: Orta Sütun"
+
+#: functions.php:583
+msgid "Add widgets here to appear in your footer (column 2: center column)."
+msgstr ""
+"Altbilginizde görünmesi için buraya widget ekleyin (sütun 2: orta sütun)."
+
+#: functions.php:592
+msgid "Footer: Right Column"
+msgstr "Altbilgi: Sağ Sütun"
+
+#: functions.php:594
+msgid "Add widgets here to appear in your footer (column 3: right column)."
+msgstr ""
+"Altbilginizde görünmesi için buraya widget ekleyin (sütun 3: sağ sütun)."
+
+#: functions.php:947
+msgid "Page №"
+msgstr "Sayfa No"
+
+#: functions.php:1080
+msgid "Category:"
+msgstr "Kategori:"
+
+#: functions.php:1083
+msgid "Tag:"
+msgstr "Etiket:"
+
+#: functions.php:1114
+msgid "Search results for:"
+msgstr "Arama sonuçları:"
+
+#: functions.php:1121
+msgid "Total posts and pages found:"
+msgstr "Bulunan toplam yazı ve sayfa:"
+
+#: functions.php:1156
+msgid "Blog posts"
+msgstr "Blog yazıları"
+
+#: functions.php:1522
+msgid "Total posts created:"
+msgstr "Oluşturulan toplam yazı:"
+
+#: header.php:51
+msgid "Menu"
+msgstr "Menü"
+
+#: page.php:80 single.php:106
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: searchform.php:14
+msgid "Enter your search query..."
+msgstr "Arama sorgunuzu girin..."
+
+#: single.php:185
+msgid "Previous post"
+msgstr "Önceki Yazı"
+
+#: single.php:186
+msgid "Next post"
+msgstr "Sonraki yazı"
+
+#: templates/homepage-slider.php:144
+msgid "Must-read articles"
+msgstr "Okumanız gereken yazılar"
+
+#: templates/homepage-slider.php:295
+msgid "No title"
+msgstr "Başlık yok"
+
+#: templates/random-posts.php:27
+msgid "Posts from our blog"
+msgstr "Blogumuzdan yazılar"
+
+#: templates/related-posts.php:45
+msgid "You may also like"
+msgstr "Bunu da beğenebilirsiniz"
